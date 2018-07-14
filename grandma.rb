@@ -14,3 +14,6 @@
 
 def speak_to_grandma(words)
   if words != words.upcase
+    "HUH?! SPEAK UP, SONNY!"
+  elsif words == words.upcase
+    ""
